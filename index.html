@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>سورپرایز ولنتاین 💙</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <h1>یک والنتاین مخصوص تو 💌</h1>
+      <p class="subtitle">با یک کلیک، والنتاین جدید و فانتزی دریافت کن ✨</p>
+    </header>
+
+    <section class="card-area">
+      <div id="valentineCard" class="card">
+        <div class="figures">
+          <!-- Female Lego + Whale -->
+          <div class="figure" id="female">
+            <svg viewBox="0 0 200 260" xmlns="http://www.w3.org/2000/svg">
+              <!-- Lego female body & head -->
+              <rect x="40" y="140" width="120" height="80" rx="12" fill="#f06f9a"/>
+              <rect x="90" y="115" width="20" height="20" rx="8" fill="#f5d7b3"/>
+              <rect x="50" y="48" width="100" height="80" rx="18" fill="#f5d7b3"/>
+              <!-- Brown hair -->
+              <rect x="20" y="20" width="160" height="90" rx="30" fill="#6b3f2b"/>
+              <path d="M20,60 Q40,10 100,20 Q160,10 180,60 L180,95 Q160,70 100,80 Q40,70 20,95 Z" fill="#563325" opacity="0.95"/>
+              <!-- Glasses -->
+              <g transform="translate(40,85)" fill="none" stroke="#222" stroke-width="4">
+                <rect x="0" y="0" width="36" height="20" rx="6"/>
+                <rect x="64" y="0" width="36" height="20" rx="6"/>
+                <path d="M36,10 L64,10"/>
+              </g>
+              <!-- Eyes -->
+              <circle cx="80" cy="95" r="3" fill="#111"/>
+              <circle cx="120" cy="95" r="3" fill="#111"/>
+              <!-- Smile -->
+              <path d="M82,112 Q100,120 118,112" stroke="#8b3b3b" stroke-width="3" fill="none" stroke-linecap="round"/>
+              <!-- Whale SVG next to female -->
+              <g transform="translate(130,160) scale(0.5)">
+                <path d="M10 40 Q50 10 90 40 Q80 50 10 40 Z" fill="#00c2f0"/>
+                <circle cx="10" cy="30" r="3" fill="#fff"/>
+              </g>
+            </svg>
+          </div>
+
+          <!-- Male Lego + Koala -->
+          <div class="figure" id="male">
+            <svg viewBox="0 0 200 260" xmlns="http://www.w3.org/2000/svg">
+              <!-- Lego male body & head -->
+              <rect x="40" y="140" width="120" height="80" rx="12" fill="#4a90e2"/>
+              <rect x="90" y="115" width="20" height="20" rx="8" fill="#f5d7b3"/>
+              <rect x="50" y="48" width="100" height="80" rx="18" fill="#f5d7b3"/>
+              <!-- Black hair -->
+              <rect x="20" y="20" width="160" height="90" rx="30" fill="#0b0b0b"/>
+              <path d="M20,60 Q40,10 100,20 Q160,10 180,60 L180,95 Q160,70 100,80 Q40,70 20,95 Z" fill="#000" opacity="0.98"/>
+              <!-- Eyes -->
+              <circle cx="80" cy="95" r="3" fill="#111"/>
+              <circle cx="120" cy="95" r="3" fill="#111"/>
+              <!-- Moustache -->
+              <path d="M75,108 Q90,118 105,108 Q120,118 135,108" stroke="#2b1b11" stroke-width="5" stroke-linecap="round" fill="none"/>
+              <path d="M82,124 Q100,130 118,124" stroke="#8b3b3b" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.8"/>
+              <!-- Koala SVG next to male -->
+              <g transform="translate(-30,160) scale(0.5)">
+                <circle cx="30" cy="30" r="20" fill="#a9a9a9"/>
+                <circle cx="20" cy="25" r="5" fill="#fff"/>
+                <circle cx="40" cy="25" r="5" fill="#fff"/>
+                <circle cx="20" cy="25" r="2" fill="#000"/>
+                <circle cx="40" cy="25" r="2" fill="#000"/>
+                <circle cx="30" cy="40" r="3" fill="#000"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+
+        <div class="message-area">
+          <p id="valentineMessage" class="message">برای تو، با عشق بی‌پایان...</p>
+        </div>
+
+        <div class="controls">
+          <button id="newBtn" class="btn">دریافت والنتاین جدید 💘</button>
+          <button id="surpriseBtn" class="btn btn-quiet">ارسال برای اون (کپی لینک)</button>
+        </div>
+      </div>
+    </section>
+
+    <div id="heartsContainer" aria-hidden="true"></div>
+
+    <footer class="footer">
+      <small>محصول: سورپرایز ولنتاین — 💙</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
