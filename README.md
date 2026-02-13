@@ -1,2 +1,4 @@
 # valentine-blue
-A fun, interactive Lego Valentine with whale &amp; koala stickers, random love messages 💌
+Salam Azizam <3
+Valentinet Mobarak ;)
+interactive Lego Valentine with whale &amp; koala stickers, random love messages 💌
